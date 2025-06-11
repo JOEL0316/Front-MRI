@@ -420,7 +420,10 @@
 
     <script>
         // URL de tu webhook en n8n - ¡IMPORTANTE CAMBIAR ESTO!
-        const N8N_WEBHOOK_URL = "https://joeldelacruzr.app.n8n.cloud/webhook-test/predict";
+        //const N8N_WEBHOOK_URL = "https://joeldelacruzr.app.n8n.cloud/webhook-test/predict";
+        
+        // Cambia tu URL de fetch a:
+        const N8N_WEBHOOK_URL = "https://cors-anywhere.herokuapp.com/https://joeldelacruzr.app.n8n.cloud/webhook-test/predict";
         
         // Mostrar nombre del archivo seleccionado
         document.getElementById('image').addEventListener('change', function(e) {
